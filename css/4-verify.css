@@ -1,0 +1,66 @@
+/* Main  */
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+/*  */
+/* .flexbox-item-1 {
+    height: 5%;
+    margin: -5%;
+} */
+h2, h3 {
+    margin: 0;
+}
+
+/*  */
+.flex-item-3 {
+    height: 30%;
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #f15634;
+}
+
+
+
+
+/*  */
+.flex-item-4 {
+    height: 45%;
+    width: 90%;
+    margin-top: 7%;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.flex-item-4 > a {
+    width: 50%;
+    height: 15%;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    color: white;
+    text-decoration: none;
+}
+
+.flex-item-4 > a:first-of-type  { background-color: #f15634; margin-bottom: 5%;}
+.flex-item-4 > a:last-child     { background-color: #7d9ac6; margin-bottom: 7%;}

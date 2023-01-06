@@ -1,0 +1,115 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+
+
+/* Inner Top */
+.flex-item-2 {
+    height: 30%;
+    width: 90%;
+    border: 1px solid lightslategray;
+    border-radius: 5px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: darkorchid;
+    
+    margin-bottom: 4%;
+}
+
+.flex-item-2 > img {
+    height: 80%;
+    width: 90%;
+    margin: 2% auto;
+}
+
+
+/* Inner Bottom */
+.flex-item-4 {
+    width: 90%;
+    height: 45%;
+    border-radius: 5px;
+    border: 1px solid lightslategray;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    font-size: .9rem;
+    font-weight: 600;
+    color: darkorchid;
+
+}
+
+.flex-item-4 > div:first-child {
+    margin-top: 5%;
+}
+
+.flex-item-4 > div {
+    width: 90%;
+    height: 7%;
+    display: flex;
+    justify-content: space-between;
+
+    margin-left: 5%;
+}
+
+input::placeholder {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.flex-div-1 > input,
+.flex-div-2 > input,
+.flex-div-3 > input,
+.flex-div-4 > input {
+    border: none;
+    width: 55%;
+    background-color: lightgrey;
+}
+
+.flex-div-5 > span {
+    margin-left: 65%;
+}
+
+.flex-div-5 {
+    margin-bottom: 0;
+}
+
+.flex-div-6 {
+    margin-bottom: 2%;
+}
+
+.flex-div-6 > a {
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+
+
+a[class^="butt"] {
+    width: 120px;
+    height: 35px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    color: white;
+    text-decoration: none;
+}
+
+.button-1   {   background-color: #7d9ac6; font-weight: 500;}
+.button-2   {   background-color: #f15634; margin-top: 4%; }

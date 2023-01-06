@@ -1,0 +1,73 @@
+/*  */
+.flexbox-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+/*  */
+.flexbox-item-1 {
+    height: 5%;
+    margin: -5%;
+}
+
+
+/*  */
+.flexbox-item-2 {
+    height: 30%;
+    width: 90%;
+    border: 1px solid lightslategray;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    color: darkorchid;
+    padding-left: 3%;
+    padding-right: 4%;
+}
+
+.flexbox-item-2 > div {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.flexbox-item-2 > div > select {
+    border: none;
+    width: 55%;
+    background-color: lightgrey;
+}
+
+
+/*  */
+.flexbox-item-3 {
+    height: 45%;
+    width: 90%;
+    /* margin: 0; */
+    border: 1px solid lightslategray;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.flexbox-item-3 > a {
+    width: 80%;
+    height: 20%;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    color: white;
+    text-decoration: none;
+}
+
+.flexbox-item-3 > a:first-child {   background-color: #7d9ac6;  }
+.flexbox-item-3 > a:last-child  {   background-color: #f15634;  }
